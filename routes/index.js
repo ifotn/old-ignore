@@ -9,7 +9,6 @@ var https = require('https');
 
 // used to send contact form email
 var nodemailer = require('nodemailer');
-var smtpTransport = require('nodemailer-smtp-transport');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -98,21 +97,12 @@ function verifyRecaptcha(key, callback) {
 }
 
 // mail transporter
-/*var transporter = nodemailer.createTransport({
+var transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
         user: 'gcevstation@gmail.com',
         pass: '8x8F?C54'
     }
-});*/
-
-var transporter = nodemailer.createTransport(smtpTransport({
-    host: 'mail.knowleswoolsey.com',
-    port: 25,
-    auth: {
-        user: 'contact@knowleswoolsey.com',
-        pass: 'sellcondos1'
-    }
-}));
+});
 
 module.exports = router;
