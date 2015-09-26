@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 // used for url request to google's recaptcha api
 var https = require('https');
 
-// used to send contact form email
+// used for contact form email
 var nodemailer = require('nodemailer');
 
 /* GET home page. */
