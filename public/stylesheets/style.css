@@ -1,0 +1,87 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+} */
+
+body {
+
+	padding-top: 70px;
+	height: 100%;
+    padding-bottom: 70px; 
+    font-family: "Lato", "sans-serif";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", "sans-serif";
+}
+
+p, div, a, label, input {
+    font-family: "Lato", "sans-serif";
+}
+
+textarea {
+    width: 80%;
+    height: 140px;
+}
+
+.btn btn-info {
+    background-color: #7699B7;
+}
+
+.navbar-custom {
+    background-color:#337AB7;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+    background-color: #1E476A;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #eb9316;
+}
+
+/*
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #B78433;
+} */
+
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+/*label {
+
+	width: 150px;
+
+}*/
+
+
+
+footer {
+	width: 100%;
+	background-color: #7699B7;
+	height: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+	font-size: smaller;
+	bottom: 0;
+	position: fixed;
+}
+
+.project {
+    width: 140px;
+    height: 140px;
+}
+
